@@ -1,0 +1,125 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+[data-bs-theme=dark] {
+  --bs-body-bg: #0e0a14;
+  --bs-body-color: #f3ecdf;
+  --bs-secondary-bg: #181120;
+  --bs-tertiary-bg: #1d1427;
+  --bs-border-color: #3b2a4d;
+  --bs-primary: #f3b41b;
+  --bs-primary-rgb: 243, 180, 27;
+  --bs-link-color-rgb: 243, 180, 27;
+  --bs-link-hover-color-rgb: 255, 214, 102;
+  --bs-body-font-family: "Hanken Grotesk", system-ui, sans-serif;
+  --bs-heading-color: #f6e7c1;
+}
+
+html {
+  scroll-padding-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand, .display-1, .display-2, .display-3, .display-4, .display-5 {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-weight: 700;
+}
+
+.btn-primary {
+  --bs-btn-color: #0e0a14;
+  --bs-btn-bg: #f3b41b;
+  --bs-btn-border-color: #f3b41b;
+  --bs-btn-hover-color: #0e0a14;
+  --bs-btn-hover-bg: #ffd166;
+  --bs-btn-hover-border-color: #ffd166;
+  --bs-btn-active-color: #0e0a14;
+  --bs-btn-active-bg: #e0a40f;
+  --bs-btn-active-border-color: #e0a40f;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #f3b41b;
+  --bs-btn-border-color: #f3b41b;
+  --bs-btn-hover-color: #0e0a14;
+  --bs-btn-hover-bg: #f3b41b;
+  --bs-btn-hover-border-color: #f3b41b;
+  --bs-btn-active-color: #0e0a14;
+  --bs-btn-active-bg: #f3b41b;
+}
+
+.hero-img {
+  height: clamp(280px, 72vh, 780px);
+  object-fit: cover;
+  object-position: center top;
+}
+
+.carousel-caption {
+  bottom: 2rem;
+}
+
+.carousel-caption h2 {
+  font-size: calc(1.6rem + 1.2vw);
+  color: #f6e7c1;
+}
+
+.pagination {
+  --bs-pagination-color: #f3b41b;
+  --bs-pagination-bg: #181120;
+  --bs-pagination-border-color: #3b2a4d;
+  --bs-pagination-hover-color: #0e0a14;
+  --bs-pagination-hover-bg: #ffd166;
+  --bs-pagination-hover-border-color: #ffd166;
+  --bs-pagination-focus-color: #0e0a14;
+  --bs-pagination-focus-bg: #ffd166;
+  --bs-pagination-active-color: #0e0a14;
+  --bs-pagination-active-bg: #f3b41b;
+  --bs-pagination-active-border-color: #f3b41b;
+  --bs-pagination-disabled-color: #6c6577;
+  --bs-pagination-disabled-bg: #181120;
+  --bs-pagination-disabled-border-color: #3b2a4d;
+}
+
+.card {
+  --bs-card-bg: var(--bs-secondary-bg);
+}
+
+.cover-hover {
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform .3s;
+}
+
+.card:hover .cover-hover {
+  transform: scale(1.03);
+}
+
+.table-dark {
+  --bs-table-bg: #181120;
+  --bs-table-striped-bg: #20162b;
+  --bs-table-hover-bg: #2c1d3b;
+}
+
+.fecha {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-weight: 700;
+  color: #f3b41b;
+}
+
+.btn-entradas-movil {
+  z-index: 1030;
+}
+
+body {
+  padding-bottom: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cover-hover {
+    transition: none;
+  }
+}
