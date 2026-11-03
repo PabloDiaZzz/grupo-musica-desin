@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discografía de Queen con las canciones de sus discos esenciales." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,700;1,500&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>Discografía · Queen</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body border-bottom border-primary-subtle" data-bs-theme="dark" aria-label="Navegación principal">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2 fs-3" href="index.html">
+            <img src="/img/escudo.png" alt="Escudo de Queen" width="40" height="40" />
+            Queen
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house me-1"></i>Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#grupo"><i class="bi bi-people me-1"></i>El grupo</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="discografia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-vinyl me-1"></i>Discografía</a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="discografia.html">Todos los discos</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-opera">A Night at the Opera <span class="text-secondary">(1975)</span></a></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-news">News of the World <span class="text-secondary">(1977)</span></a></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-game">The Game <span class="text-secondary">(1980)</span></a></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-magic">A Kind of Magic <span class="text-secondary">(1986)</span></a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="gira.html"><i class="bi bi-calendar-event me-1"></i>Gira</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html"><i class="bi bi-envelope me-1"></i>Contacto</a></li>
+              <li class="nav-item d-none d-lg-block ms-lg-3"><a class="btn btn-primary btn-sm" href="gira.html"><i class="bi bi-ticket-perforated me-1"></i>Entradas</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="py-5 bg-body-secondary text-center">
+        <div class="container">
+          <h1 class="display-3 mb-3">Discografía</h1>
+          <div class="row justify-content-center"><div class="col-12 col-md-8 col-lg-6"><p class="lead text-body-secondary mb-0">Cuatro discos esenciales. Despliega cada uno para ver sus canciones destacadas.</p></div></div>
+        </div>
+      </section>
+      <section id="discografia" class="py-5">
+        <div class="container">
+          <div class="row g-4 align-items-start">
+            <div class="col-12 col-sm-6 col-lg-3" id="disco-opera">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img src="/img/opera.webp" width="800" height="800" loading="lazy" class="card-img-top cover-hover" alt="Portada del disco A Night at the Opera" />
+                <div class="card-body d-flex flex-column">
+                  <h2 class="h5 card-title">A Night at the Opera</h2>
+                  <p class="text-body-secondary">1975</p>
+                  <button class="btn btn-outline-primary mt-auto" type="button" data-bs-toggle="collapse" data-bs-target="#canciones-opera" aria-expanded="false" aria-controls="canciones-opera">
+                    <i class="bi bi-music-note-list me-1"></i>Ver canciones
+                  </button>
+                  <div class="collapse mt-3" id="canciones-opera">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-transparent">Death on Two Legs</li>
+                      <li class="list-group-item bg-transparent">Love of My Life</li>
+                      <li class="list-group-item bg-transparent">'39</li>
+                      <li class="list-group-item bg-transparent">Bohemian Rhapsody</li>
+                      <li class="list-group-item bg-transparent">You're My Best Friend</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3" id="disco-news">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img src="/img/news.webp" width="800" height="800" loading="lazy" class="card-img-top cover-hover" alt="Portada del disco News of the World" />
+                <div class="card-body d-flex flex-column">
+                  <h2 class="h5 card-title">News of the World</h2>
+                  <p class="text-body-secondary">1977</p>
+                  <button class="btn btn-outline-primary mt-auto" type="button" data-bs-toggle="collapse" data-bs-target="#canciones-news" aria-expanded="false" aria-controls="canciones-news">
+                    <i class="bi bi-music-note-list me-1"></i>Ver canciones
+                  </button>
+                  <div class="collapse mt-3" id="canciones-news">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-transparent">We Will Rock You</li>
+                      <li class="list-group-item bg-transparent">We Are the Champions</li>
+                      <li class="list-group-item bg-transparent">Spread Your Wings</li>
+                      <li class="list-group-item bg-transparent">It's Late</li>
+                      <li class="list-group-item bg-transparent">My Melancholy Blues</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3" id="disco-game">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img src="/img/game.webp" width="800" height="800" loading="lazy" class="card-img-top cover-hover" alt="Portada del disco The Game" />
+                <div class="card-body d-flex flex-column">
+                  <h2 class="h5 card-title">The Game</h2>
+                  <p class="text-body-secondary">1980</p>
+                  <button class="btn btn-outline-primary mt-auto" type="button" data-bs-toggle="collapse" data-bs-target="#canciones-game" aria-expanded="false" aria-controls="canciones-game">
+                    <i class="bi bi-music-note-list me-1"></i>Ver canciones
+                  </button>
+                  <div class="collapse mt-3" id="canciones-game">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-transparent">Another One Bites the Dust</li>
+                      <li class="list-group-item bg-transparent">Crazy Little Thing Called Love</li>
+                      <li class="list-group-item bg-transparent">Play the Game</li>
+                      <li class="list-group-item bg-transparent">Save Me</li>
+                      <li class="list-group-item bg-transparent">Need Your Loving Tonight</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3" id="disco-magic">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img src="/img/magic.webp" width="800" height="800" loading="lazy" class="card-img-top cover-hover" alt="Portada del disco A Kind of Magic" />
+                <div class="card-body d-flex flex-column">
+                  <h2 class="h5 card-title">A Kind of Magic</h2>
+                  <p class="text-body-secondary">1986</p>
+                  <button class="btn btn-outline-primary mt-auto" type="button" data-bs-toggle="collapse" data-bs-target="#canciones-magic" aria-expanded="false" aria-controls="canciones-magic">
+                    <i class="bi bi-music-note-list me-1"></i>Ver canciones
+                  </button>
+                  <div class="collapse mt-3" id="canciones-magic">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-transparent">One Vision</li>
+                      <li class="list-group-item bg-transparent">A Kind of Magic</li>
+                      <li class="list-group-item bg-transparent">Friends Will Be Friends</li>
+                      <li class="list-group-item bg-transparent">Who Wants to Live Forever</li>
+                      <li class="list-group-item bg-transparent">Gimme the Prize</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-body-secondary">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+              <h2 class="h3 text-center mb-3">Bohemian Rhapsody</h2>
+              <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+                <iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Videoclip oficial de Bohemian Rhapsody" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-5 border-top border-primary-subtle">
+      <div class="container text-center">
+        <img src="/img/logo-completo.png" alt="Logotipo de Queen" width="120" height="140" class="mb-3" loading="lazy" />
+        <ul class="list-inline fs-4 mb-4">
+          <li class="list-inline-item"><a class="link-primary" href="https://www.facebook.com/Queen" aria-label="Facebook de Queen"><i class="bi bi-facebook"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://www.instagram.com/officialqueenmusic/" aria-label="Instagram de Queen"><i class="bi bi-instagram"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://x.com/QueenWillRock" aria-label="X de Queen"><i class="bi bi-twitter-x"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://www.youtube.com/queenofficial" aria-label="YouTube de Queen"><i class="bi bi-youtube"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d" aria-label="Spotify de Queen"><i class="bi bi-spotify"></i></a></li>
+        </ul>
+        <p class="text-body-secondary mb-1">© 2026 Queen. Todos los derechos reservados.</p>
+        <p class="mb-0"><a class="link-secondary" href="aviso-legal.html">Aviso legal</a></p>
+      </div>
+    </footer>
+
+    <a href="gira.html" class="btn btn-primary btn-lg fixed-bottom m-3 d-md-none btn-entradas-movil shadow">
+      <i class="bi bi-ticket-perforated me-2"></i>Entradas
+    </a>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
