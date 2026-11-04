@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fechas, ciudades y entradas de la gira de Queen." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,700;1,500&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>Gira · Queen</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body border-bottom border-primary-subtle" data-bs-theme="dark" aria-label="Navegación principal">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2 fs-3" href="index.html">
+            <img src="/img/escudo.png" alt="Escudo de Queen" width="40" height="40" />
+            Queen
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house me-1"></i>Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#grupo"><i class="bi bi-people me-1"></i>El grupo</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="discografia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-vinyl me-1"></i>Discografía</a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="discografia.html">Todos los discos</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-opera">A Night at the Opera <span class="text-secondary">(1975)</span></a></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-news">News of the World <span class="text-secondary">(1977)</span></a></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-game">The Game <span class="text-secondary">(1980)</span></a></li>
+                  <li><a class="dropdown-item" href="discografia.html#disco-magic">A Kind of Magic <span class="text-secondary">(1986)</span></a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="gira.html"><i class="bi bi-calendar-event me-1"></i>Gira</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html"><i class="bi bi-envelope me-1"></i>Contacto</a></li>
+              <li class="nav-item d-none d-lg-block ms-lg-3"><a class="btn btn-primary btn-sm" href="gira.html"><i class="bi bi-ticket-perforated me-1"></i>Entradas</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="py-5 bg-body-secondary text-center">
+        <div class="container">
+          <h1 class="display-3 mb-3">The Rhapsody Tour 2027</h1>
+          <div class="row justify-content-center"><div class="col-12 col-md-8 col-lg-6"><p class="lead text-body-secondary mb-0">Quince conciertos por España y Europa. Reserva tu entrada antes de que se agoten.</p></div></div>
+        </div>
+      </section>
+      <section id="gira" class="py-5">
+        <div class="container">
+          <div class="table-responsive">
+            <table class="table table-dark table-striped table-hover align-middle" id="tabla-gira">
+              <caption class="visually-hidden">Calendario de conciertos</caption>
+              <thead>
+                <tr><th scope="col">Fecha</th><th scope="col">Ciudad</th><th scope="col">Sala</th><th scope="col" class="text-end">Entradas</th></tr>
+              </thead>
+              <tbody>
+                <tr data-pagina="1"><td class="fecha"><time datetime="2027-06-12">12 jun 2027</time></td><td>Madrid</td><td>Movistar Arena</td><td class="text-end text-nowrap"><span class="badge text-bg-secondary">Agotado</span></td></tr>
+                <tr data-pagina="1"><td class="fecha"><time datetime="2027-06-14">14 jun 2027</time></td><td>Barcelona</td><td>Palau Sant Jordi</td><td class="text-end text-nowrap"><span class="badge text-bg-danger me-2">Últimas entradas</span><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="1"><td class="fecha"><time datetime="2027-06-17">17 jun 2027</time></td><td>Bilbao</td><td>BEC! Bizkaia Arena</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="1"><td class="fecha"><time datetime="2027-06-19">19 jun 2027</time></td><td>Valencia</td><td>Roig Arena</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="1"><td class="fecha"><time datetime="2027-06-22">22 jun 2027</time></td><td>Sevilla</td><td>Estadio de La Cartuja</td><td class="text-end text-nowrap"><span class="badge text-bg-secondary">Agotado</span></td></tr>
+                <tr data-pagina="2"><td class="fecha"><time datetime="2027-06-25">25 jun 2027</time></td><td>Gijón</td><td>Palacio de Deportes</td><td class="text-end text-nowrap"><span class="badge text-bg-primary me-2">Nuevo</span><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="2"><td class="fecha"><time datetime="2027-06-27">27 jun 2027</time></td><td>A Coruña</td><td>Coliseum</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="2"><td class="fecha"><time datetime="2027-06-30">30 jun 2027</time></td><td>Zaragoza</td><td>Pabellón Príncipe Felipe</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="2"><td class="fecha"><time datetime="2027-07-02">2 jul 2027</time></td><td>Málaga</td><td>Palacio de Deportes Martín Carpena</td><td class="text-end text-nowrap"><span class="badge text-bg-danger me-2">Últimas entradas</span><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="2"><td class="fecha"><time datetime="2027-07-05">5 jul 2027</time></td><td>Lisboa</td><td>MEO Arena</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="3"><td class="fecha"><time datetime="2027-07-09">9 jul 2027</time></td><td>París</td><td>Accor Arena</td><td class="text-end text-nowrap"><span class="badge text-bg-secondary">Agotado</span></td></tr>
+                <tr data-pagina="3"><td class="fecha"><time datetime="2027-07-12">12 jul 2027</time></td><td>Londres</td><td>The O2</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="3"><td class="fecha"><time datetime="2027-07-16">16 jul 2027</time></td><td>Milán</td><td>Unipol Forum</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="3"><td class="fecha"><time datetime="2027-07-20">20 jul 2027</time></td><td>Berlín</td><td>Uber Arena</td><td class="text-end text-nowrap"><span class="badge text-bg-primary me-2">Nuevo</span><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+                <tr data-pagina="3"><td class="fecha"><time datetime="2027-07-24">24 jul 2027</time></td><td>Ámsterdam</td><td>Ziggo Dome</td><td class="text-end text-nowrap"><a href="#" class="btn btn-primary btn-sm">Comprar</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <nav aria-label="Páginas del calendario" class="mt-4">
+            <ul class="pagination justify-content-center" id="paginacion-gira">
+              <li class="page-item disabled"><a class="page-link" href="#" data-pagina="anterior" aria-disabled="true">Anterior</a></li>
+              <li class="page-item active" aria-current="page"><a class="page-link" href="#" data-pagina="1">1</a></li>
+              <li class="page-item"><a class="page-link" href="#" data-pagina="2">2</a></li>
+              <li class="page-item"><a class="page-link" href="#" data-pagina="3">3</a></li>
+              <li class="page-item"><a class="page-link" href="#" data-pagina="siguiente">Siguiente</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="py-5 bg-body-secondary">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+              <h2 class="h3 mb-3">Preguntas frecuentes</h2>
+              <div class="accordion" id="faqGira">
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">¿Dónde puedo comprar las entradas?</button></h3>
+                  <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqGira"><div class="accordion-body">Pulsa «Comprar» en la fecha que te interese. Cada concierto tiene un límite de ocho entradas por persona.</div></div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Pueden entrar menores de edad?</button></h3>
+                  <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqGira"><div class="accordion-body">Sí. Los menores de 14 años deben ir acompañados por una persona adulta.</div></div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">¿A qué hora abren las puertas?</button></h3>
+                  <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqGira"><div class="accordion-body">Las puertas abren dos horas antes del inicio. El concierto empieza a las 21:00.</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-5 border-top border-primary-subtle">
+      <div class="container text-center">
+        <img src="/img/logo-completo.png" alt="Logotipo de Queen" width="120" height="140" class="mb-3" loading="lazy" />
+        <ul class="list-inline fs-4 mb-4">
+          <li class="list-inline-item"><a class="link-primary" href="https://www.facebook.com/Queen" aria-label="Facebook de Queen"><i class="bi bi-facebook"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://www.instagram.com/officialqueenmusic/" aria-label="Instagram de Queen"><i class="bi bi-instagram"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://x.com/QueenWillRock" aria-label="X de Queen"><i class="bi bi-twitter-x"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://www.youtube.com/queenofficial" aria-label="YouTube de Queen"><i class="bi bi-youtube"></i></a></li>
+          <li class="list-inline-item"><a class="link-primary" href="https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d" aria-label="Spotify de Queen"><i class="bi bi-spotify"></i></a></li>
+        </ul>
+        <p class="text-body-secondary mb-1">© 2026 Queen. Todos los derechos reservados.</p>
+        <p class="mb-0"><a class="link-secondary" href="aviso-legal.html">Aviso legal</a></p>
+      </div>
+    </footer>
+
+    <a href="gira.html" class="btn btn-primary btn-lg fixed-bottom m-3 d-md-none btn-entradas-movil shadow">
+      <i class="bi bi-ticket-perforated me-2"></i>Entradas
+    </a>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
